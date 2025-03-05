@@ -10,7 +10,7 @@ The player with state $A$ will win iff $A + 1 \equiv B \pmod 5$ or $A + 3 \equiv
 
 This smart contract consist of 3 modules :
 - `RPS.sol` main game
-- `CommitReveal.sol` to help hide the players choices and avoud front-running
+- `CommitReveal.sol` to help hide the players choices and avoid front-running
 - `TimeUnit.sol` to help with dealing time
 
 ## How it works?
