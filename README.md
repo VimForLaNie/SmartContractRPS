@@ -6,7 +6,7 @@ This game logic can be simply implemented using modulo arithmetic by representin
 
 Given states of two players to be $A$ and $B$ :
 
-The player with state $A$ will win iff $A + 1 \equiv B \pmod 5$ or $A + 1 \equiv B  \pmod 5$
+The player with state $A$ will win iff $A + 1 \equiv B \pmod 5$ or $A + 3 \equiv B  \pmod 5$
 
 This smart contract consist of 3 modules :
 - `RPS.sol` main game
