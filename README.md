@@ -23,9 +23,11 @@ This smart contract consist of 3 modules :
    - `04` for Rock
    
    Then each player has to generate a random hex string, 30 characters long and append their choices to the string and send the result using `input` function.
-2.1 If the second player would not make any choice, the first player can `abort` the game after 3 minutes has passed.
-3. Each player reveal thier choices (this function available only if both players have make their choices) using `reveal` funtion and passing the string from step 2 as input.
-4. After both players reveal their choices, the contract will pay the player accordingly :
+
+**If the second player would not make any choice, the first player can `abort` the game after 3 minutes has passed.**
+ 
+ 3. Each player reveal thier choices (this function available only if both players have make their choices) using `reveal` funtion and passing the string from step 2 as input.
+ 4. After both players reveal their choices, the contract will pay the player accordingly :
    - Win 2 ETH
    - Draw 1 ETH each
 
